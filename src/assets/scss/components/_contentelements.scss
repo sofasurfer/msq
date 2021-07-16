@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Contentelements
+   ========================================================================== */
+
+/* small elements that don't need their own .scss */
+
+
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+.c-bg-dark {
+	background-color: $bg-dark;
+}
+
+/* ==========================================================================
+  Showroom
+   ========================================================================== */
+
+
+/* ==========================================================================
+  Showroom / Teaser big
+   ========================================================================== */
+
+.c-showroom{
+  .c-gradient{
+    // filter: grayscale(1);
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    z-index: auto;
+    min-height: 100vh;
+  }
+}
+
+.c-showroom,
+.c-teaser-big {
+  overflow: hidden;
+}
+
+.c-showroom,
+.c-showroom-text .c-row,
+.c-teaser-big,
+.c-teaser-big-text .c-row {
+  min-height: 60vh; 
+}
+
+
+/* min-height fix for ie11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .c-showroom-text .c-row:after,
+  .c-teaser-big-text .c-row:after {
+    content: '';
+    /*display: block;*/
+    display: inline-block;
+    min-height: inherit;
+    font-size: 0;
+  }
+}
+
+
+.c-showroom-img,
+.c-showroom-video,
+.c-teaser-big-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.c-showroom-img img,
+.c-showroom-video video,
+.c-teaser-big-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+  Text img
+   ========================================================================== */
+
+
+
+
+.c-cookie-notice{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  background-color: $bg-dark;
+  color: white;
+  line-height: 1.8;
+  text-align: center;
+  display: none;
+}
+
+@media only screen and (max-width:768px) {    
+	.c-cookie-notice {
+		line-height: 1.5;
+	}
+	
+	.c-cookie-notice span {
+		display: block;
+		padding-top: 1em;
+	}
+	
+}

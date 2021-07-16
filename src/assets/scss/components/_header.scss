@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.c-header {
+	position:fixed;
+	background-color: transparent;
+	box-shadow: none;
+	z-index: 10;
+}
+
+
+.c-header-inner {
+	height: 60px;
+}
+
+
+.c-header-logo {
+	position: relative;
+	width: 130px;
+}
+
+.c-header-logo a {
+	display: block;
+}
+
+

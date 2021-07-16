@@ -1,0 +1,43 @@
+/* Variables, Naming may vary from project to project */
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+$font-stack-default: 'Open Sans', sans-serif;
+
+
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+/* text */
+$text-color: #333333; /* grey */
+$text-color-light: #fff;
+
+$color-primary: $text-color;
+
+$text-color-footer: $text-color;
+$text-color-medium: $text-color;
+
+$color-highlight: #e52e2e; /* light brown */
+
+/* background */
+$bg-content: #fff;
+$bg-dark: #818084; /* grey */
+$bg-light: #D9D5CB; /* light brown */
+
+/* line-colors */
+$border-basic: #818084;
+
+ 
+/* form */
+$border-form: #818084;
+$border-form-focus: #000;
+$form-disabled: #ccc;
+$color-form-error: #dd0000;
+
+
+/* ==========================================================================
+   Breakpoints
+   ========================================================================== */
