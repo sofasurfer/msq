@@ -5,8 +5,8 @@
 .c-footer {
 	padding-top: 4em;
 	padding-bottom: 4em;
-	background-color: $bg-dark;
-	color: $text-color-light;
+	background-color: $color-highlight;
+	color: $text-color-footer;
 }
 
 .c-footer p {
@@ -40,10 +40,10 @@
 
 .c-footer a,
 .c-footer a:visited {
-	color: $text-color-light;
+	color: $text-color-footer;
 }
 
 .c-footer a:hover,
 .c-footer a:focus {
-	color: $text-color-light;
+	color: $text-color-footer;
 }
